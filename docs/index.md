@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Nidal TEST Blog
 
 You can use the [editor on GitHub](https://github.com/NidalFikri/test.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -8,23 +8,22 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+```xml
+rule hancitor : loader
+{
+	meta:
+		description = "This is a noob rule."
+		author = "Nidal Fikri @cyber_anubis"
+		
+	strings:
+	$mz = {4D 5A}			//PE File
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+	condition:
+	($mz at 0) 
+}
 ```
+
+![allocated_space](https://user-images.githubusercontent.com/33065305/132691530-b76e1d1b-896f-42be-8d5d-d3a4791e6182.png)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
